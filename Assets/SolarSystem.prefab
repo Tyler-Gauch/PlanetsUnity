@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1659774022793500}
+  m_IsPrefabAsset: 1
+--- !u!1 &1659774022793500
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4512012551843928}
+  - component: {fileID: 114496674013186568}
+  m_Layer: 0
+  m_Name: SolarSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4512012551843928
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1659774022793500}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114496674013186568
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1659774022793500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17262bca7ba7d844691ea3df00424bb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlanetPrefabs:
+  - {fileID: 1580079785184128, guid: 38153942aca719441bcbc29a9dad8056, type: 2}
+  StarPrefabs:
+  - {fileID: 1524610657447582, guid: 0ff831b7109c0dd4fbbe9680c9506f8a, type: 2}
+  MaxNumberOfPlanets: 5
+  DistanceBetweenPlanets: {x: 0.5, y: 0.5}
+  NumberOfPlanets: 0
+  Seed: 0
+  Name: 
+  Adjectives:
+  - Wacky
+  - Wavy
+  - Inflatable
+  - Flaling
+  - Smokey
+  Nouns:
+  - Arm
+  - Ninja
+  - Tube
+  - Man
+  - System
